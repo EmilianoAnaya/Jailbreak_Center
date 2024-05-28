@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="GUIDES">GUIDE</string>
+    <string name="FORUMS">FORUMS</string>
+
+    <string name="DATE_3DS">GUIDE DATE: 2024</string>
+    <string name="SITE_3DS">OFFICIAL GUIDE SITE: https://3ds.hacks.guide</string>
+
+    <string name="DATE_PS2">GUIDE DATE: 2024</string>
+    <string name="SITE_PS2">OFFICIAL GUIDE SITE: https://cheapergamer.co.uk/ps2-modding-guide/</string>
+
+    <string name="DATE_PSP">GUIDE DATE: 2024</string>
+    <string name="SITE_PSP">OFFICIAL GUIDE SITE: https://es.wikihow.com/hackear-un-PSP</string>
+
+
+    <color name="selected_active">#CC2229</color>
+    <color name="normal">#231F20</color>
+</resources>

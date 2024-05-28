@@ -1,0 +1,7 @@
+<resources>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="login">Iniciar Sesion</string>
+    <string name="register">Registrarse</string>
+    <string name="log_out">Log Out</string>
+</resources>

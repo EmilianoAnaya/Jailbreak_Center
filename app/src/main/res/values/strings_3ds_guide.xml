@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Get_Started">● Get Started</string>
+    <string name="Description_Get_Started">
+        Section I - CFW Check\n
+        1.- Power off your console\n
+        2.- Hold the (Select) button\n
+        3.- Power on your console while still holding the (Select) button\n
+        4.- If you do not see a custom menu (your console just boots to the HOME Menu),
+            you may proceed to the next section otherwise search other guide to update Luma3DS.\n\n\n
+
+        Section II - System Version Check\n
+        1.- Launch System Settings on your console\n
+        2.- Your system version will be displayed on the bottom right of the top screen (e.g. “Ver. 11.17.0-50U”)\n
+        3.- If your system is below the version 11.17.0-50, update the system and continue with the guide later on.
+    </string>
+    
+    <string name="N3DS_Section2">● Installing boot9strap (MSET9 CLI)</string>
+    <string name="Description_N3DS_Section2_part1">
+            What You Need\
+            - The latest release of MSET9 (the Release .zip file)\n
+                link: https://github.com/zoogie/MSET9/releases/tag/v1.2\n
+            - Any 3.x version of Python installed on your computer\n
+                link: https://www.python.org/downloads/\n\n\n
+
+            Section I - Prep Work\n
+            In this section, you will prepare the SD card data necessary for the MSET9 exploit to trigger.\n\n
+            1.- Power on your console with your SD card inserted\n
+            2.- Open Mii Maker\n
+            3.- Wait for your console to reach the “Welcome to Mii Maker” screen, then exit Mii Maker\n
+            **You may see this screen, which indicates the necessary data has been created
+    </string>
+
+    <string name="Description_N3DS_Section2_part2">
+        **If you just reach the normal Mii Maker screen, exit Mii Maker and continue to the next step\n
+        4.- Power off your console\n
+        5.- Insert your SD card into your computer\n
+        6.- Copy everything from the Release .zip to the root of your SD card, overwriting any existing files
+    </string>
+
+    <string name="Description_N3DS_Section2_part3">
+        7.- Run the MSET9 script (Double-click mset9.bat)
+    </string>
+
+    <string name="Description_N3DS_Section2_part4">
+        8.- Type the number corresponding to your console model and version, then press Enter\n
+        **The window should change to this:
+    </string>
+
+    <string name="Description_N3DS_Section2_part5">
+        **Ensure that the correct console model and version is displayed\n
+        9.- Type 1, then press Enter to ensure your console is prepared for MSET9\n
+        **If you get an error, check the troubleshooting, then try again\n
+        **If you get “Error 10: Database(s) malformed or missing!”, follow the instructions here, then go back to Step 7 of this section\n
+        10.- If you see the message “Everything appears to be functional!”, press Enter to close the MSET9 script\n
+        11.- Reinsert your SD card into your console\n
+        12.- Power on your console\n\n\n
+
+        Section II - MSET9\n
+        In this section, you will trigger MSET9 to launch SafeB9SInstaller (the custom firmware installer).\n\n
+        1.- Hover over the System Settings icon using the D-Pad (do not select it yet)
+    </string>
+
+    <string name="Description_N3DS_Section2_part6">
+        2.- Power off, then power on your console\n
+        3.- Press (A) to launch System Settings\n
+        4.- Navigate to Data Management -> Nintendo 3DS -> Extra Data\n
+        5.- Do not press any buttons or touch the screen\n
+        6.- With the console STILL ON, and without pressing any buttons or touching the screen, remove your SD card from your console\n
+        **The menu will refresh and say that no SD card is inserted, which is expected\n
+        7.- Insert your SD card into your computer\n
+        8.- Run the MSET9 script (Double-click mset9.bat)\n
+        9.- Type the number corresponding to your console model and version, then press Enter\n
+        10.- In the MSET9 window, type 2, then press Enter to inject MSET9\n
+        **You should see “MSET9 successfully injected!”\n
+        11.- Press Enter to close the MSET9 script\n
+        12.- Reinsert your SD card into your console without pressing any buttons or touching the screen\n
+        13.- If the exploit was successful, you will have booted into SafeB9SInstaller\n\n\n
+
+        Section III - Installing boot9strap\n
+        In this section, you will install custom firmware onto your console.\n\n
+
+        1.- When prompted, input the key combo given on the top screen to install boot9strap\n
+        2.- Once it is complete, press (A) to reboot your console\n
+        3.- Your console should have booted into the Luma3DS configuration menu\n
+        **If your console shuts down when you try to power it on, ensure that you have copied boot.firm from the Luma3DS .zip to the root of your SD card\n
+        4.- Press (Start) to save and reboot\n\n\n
+
+        Section IV - Removing MSET9\n
+        In this section, you will remove MSET9 to prevent further issues. (This will not remove the custom firmware that you just installed.)\n\n
+
+        !!Do NOT skip this section! If you skip it, applications may crash unexpectedly and you will encounter errors on the next page!!\n\n
+
+        1.- Power off your console\n
+        2.- Insert your SD card into your computer\n
+        3.- Run the MSET9 script (Double-click mset9.bat)\n
+        4.- Type the number corresponding to your console model and version, then press Enter\n
+        5.- In the MSET9 window, type 3, then press Enter to remove MSET9\n
+        **You should see “Successfully removed MSET9!”\n
+        6.- Press Enter to close the MSET9 script\n\n
+        - - - At this point, your console will boot to Luma3DS by default.\n
+        - -Luma3DS does not look any different from the normal HOME Menu. If your console has booted into the HOME Menu, it is running custom firmware.\n
+        - -On the next section, you will install useful homebrew applications to complete your setup.
+    </string>
+
+    <string name="N3DS_Section3">● Finalizing Setup</string>
+    <string name="Description_N3DS_Section3_part1">
+        What You Need\n
+        - - finalize_helper.firm (https://3ds.hacks.guide/assets/finalize_helper.firm)\n
+        - - finalize.romfs (https://3ds.hacks.guide/assets/finalize.romfs)\n\n\n
+
+        Section I - Prep Work\n
+        In this section, you will copy the files necessary to follow the rest of the instructions on this page.\n\n
+        1.- Power off your console\n
+        2.- Insert your SD card into your computer\n
+        3.- Copy finalize.romfs to the root of your SD card\n
+        4.- Open the luma folder on your SD card and create a folder named payloads inside, if it does not already exist\n
+        5.- Copy finalize_helper.firm to the payloads folder\n
+        6.- Reinsert your SD card into your console\n\n
+        The screenshot below indicates the minimum SD card layout that is required to follow this page. You may have extra files or folders on your SD card, depending on your previous setup or the method that you followed.
+    </string>
+
+    <string name="Description_N3DS_Section3_part2">
+        Section II - Updating the System\n
+        In this section, you will update your system to the latest version, which is safe to do with custom firmware.\n\n
+
+        1.- Update your console by going to System Settings, then “Other Settings”, then going all the way to the right and using “System Update”\n
+        **Updates while using B9S + Luma (what you have) are safe\n
+        **The updater may display a message saying “Your system is up to date” instead of updating. This is normal if you are already up to date; continue to the next section\n
+        **If this gives you an error, set both your DNS settings and Proxy settings to “Auto”\n\n\n
+
+        Section III - RTC and DSP setup\n
+        In this section, you will sync your 3DS internal clock with the actual time and dump the sound firmware (which is necesssary for some homebrew software to use sound properly).\n\n
+
+        1.- Press (Left Shoulder) + (D-Pad Down) + (Select) at the same time to open the Rosalina menu\n
+        ** If one of these buttons is broken, download config.ini and put it in your luma folder, replacing the existing one. This will change the Rosalina menu key combination to (X) + (Y)\n
+        2.- Select “Miscellaneous options”\n
+        3.- Select “Dump DSP firmware”\n
+        4.- Press (B) to continue\n
+        5.- Select “Nullify user time offset”\n
+        6.- Press (B) to continue\n
+        7.- Press (B) to return to the Rosalina main menu\n
+        8.- Press (B) to exit the Rosalina menu\n\n\n
+
+        Section IV - Setup Script\n
+        In this section, you will use a series of scripts to automate homebrew installation, SD card cleanup, and system file backup.\n\n
+
+        1.- Power off your console\n
+        2.- Press and hold (Start), and while holding (Start), power on your console. This will launch the Finalizing Setup Helper\n
+        **If you boot to the Luma3DS configuration menu, you held SELECT instead of START\n
+        **If you boot to the HOME Menu, your payloads folder may be incorrectly spelled or in the wrong location\n
+        **If you see a “Luma3DS Chainloader” menu, use the D-Pad and (A) buttons to navigate to and select finalize_helper from the list\n
+        3.- If the Helper was successful, your console will boot into GodMode9\n
+        **From this point forward, you can access GodMode9 by holding START while powering on your console\n
+        4.- If you are prompted to create an essential files backup, press (A) to do so, then press (A) to continue once it has completed\n
+        5.- If you are prompted to fix the RTC date-time, press (A) to do so, then set the date and time, then press (A) to continue\n
+        6.- Press (Home) to bring up the action menu\n
+        7.- Select “Scripts…”\n
+        8.- Select “finalize”\n
+        9.- Follow the prompts in the script, answering any questions that you are asked\n
+        **If you encounter an error, follow the instructions in the error message or consult the troubleshooting page\n
+        10.- Once the script says “Setup complete!”, press (A) to power off the device\n
+        **If you do NOT see the message “Setup complete!”, the script was not successful and you will need to redo this section from Step 3\n
+        11.- Insert your SD card into your computer\n
+        12.- Copy the /gm9/backups/ folder to a safe location on your computer\n
+        **This folder contains critical file backups and should be backed up to multiple locations (i.e. cloud storage) if possible\n
+        **The two SysNAND files are your NAND backup and can be used to revert your console to a working state if it is bricked by a software issue\n
+        **The essential.exefs file contains your console’s system-unique files and can be used to recover your data in the event of a hardware failure\n
+        14.- If you still have them, delete the two SysNAND files from the /gm9/backups/ folder from your SD card\n
+        **The essential.exefs file is small and may be kept on your SD card for ease of access\n\n\n
+        You’re done! Custom firmware is now fully configured on your console.
+    </string>
+
+</resources>

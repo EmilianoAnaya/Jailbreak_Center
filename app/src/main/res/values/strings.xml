@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Jailbreak Center</string>
+    <string name="slogan">Unleash True Power</string>
+    <string name="Logo">Logo</string>
+
+    <string name="btn_playstation2">PlayStation 2</string>
+    <string name="btn_n64">Nintendo 64</string>
+    <string name="btn_n3ds">Nintendo 3Ds</string>
+    <string name="btn_x360">Xbox 360</string>
+    <string name="btn_psp">PSP</string>
+
+
+    <string name="des_playstation2">PlayStation 2 logo</string>
+    <string name="des_n64">Nintendo 64 logo</string>
+    <string name="des_n3ds">Nintendo 3Ds logo</string>
+    <string name="des_JC">Jailbreak Center logo</string>
+    <string name="des_x360">Xbox 360 logo</string>
+    <string name="des_psp">PSP logo</string>
+    <string name="des_user_login">User login</string>
+
+    <!-- PANTALLA DE FOROS -->
+    <string name="BusquedaTema">Buscar en Foro</string>
+    <string name="InicioDiscusion">Iniciar una Discusion</string>
+
+    <!-- TEMAS Y RESPUESTAS -->
+    <string name="Regresar">Regresar</string>
+    <string name="Enviar">Enviar</string>
+    <string name="Forum_description">Ingrese la descripcion de su tema</string>
+    <string name="Forum_title">Asunto de Discusión</string>
+    <string name="Forum_answer">Ingrese su Respuesta</string>
+    <string name="Forum_insert_description">%1$s:\n%2$s</string>
+    <string name="Reproducir_Video">Reproducir Video</string>
+
+    <!-- Cosas del Contador :C -->
+    <string name="btn_contador">PRESIONAME!!!</string>
+    <string name="VideoTutorial">Video Tutorial:</string>
+
+</resources>

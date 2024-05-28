@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_psp"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/btn_off"
+            android:drawableEnd="@drawable/down_arrow"
+            android:gravity="left|center_vertical"
+            android:text="@string/requierements_psp"
+            android:textColor="@color/btn_text" />
+
+        <LinearLayout
+            android:id="@+id/layout_requierements_psp"
+            android:layout_width="361dp"
+            android:layout_height="288dp"
+            android:layout_gravity="center"
+            android:background="@drawable/borders_layouts"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/requerimientos_psp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fnt_color"
+                android:text="@string/necesitamos_psp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_section1"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/btn_off"
+            android:drawableEnd="@drawable/down_arrow"
+            android:gravity="left|center_vertical"
+            android:text="@string/Section1_psp"
+            android:textColor="@color/btn_text" />
+
+        <LinearLayout
+            android:id="@+id/layout_section1_psp"
+            android:layout_width="361dp"
+            android:layout_height="506dp"
+            android:layout_gravity="center"
+            android:background="@drawable/borders_layouts"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1_psp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fnt_color"
+                android:text="@string/primero_psp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="244dp"
+                app:srcCompat="@drawable/psp1" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_section2_psp"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/btn_off"
+            android:drawableEnd="@drawable/down_arrow"
+            android:gravity="left|center_vertical"
+            android:text="@string/Section2_psp"
+            android:textColor="@color/btn_text" />
+
+        <LinearLayout
+            android:id="@+id/layout_section2_psp"
+            android:layout_width="361dp"
+            android:layout_height="548dp"
+            android:layout_gravity="center"
+            android:background="@drawable/borders_layouts"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2_psp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fnt_color"
+                android:text="@string/segundo_psp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/psp2" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_section3_psp"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/btn_off"
+            android:drawableEnd="@drawable/down_arrow"
+            android:gravity="left|center_vertical"
+            android:text="@string/Section3_psp"
+            android:textColor="@color/btn_text" />
+
+        <LinearLayout
+            android:id="@+id/layout_section3_psp"
+            android:layout_width="361dp"
+            android:layout_height="370dp"
+            android:layout_gravity="center"
+            android:background="@drawable/borders_layouts"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3_psp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fnt_color"
+                android:text="@string/tercero_psp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/psp3" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_section4_psp"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/btn_off"
+            android:drawableEnd="@drawable/down_arrow"
+            android:gravity="left|center_vertical"
+            android:text="@string/Section4_psp"
+            android:textColor="@color/btn_text" />
+
+        <LinearLayout
+            android:id="@+id/layout_section4_psp"
+            android:layout_width="361dp"
+            android:layout_height="401dp"
+            android:layout_gravity="center"
+            android:background="@drawable/borders_layouts"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4_psp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fnt_color"
+                android:text="@string/cuarto_psp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/psp4" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_section5_psp"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/btn_off"
+            android:drawableEnd="@drawable/down_arrow"
+            android:gravity="left|center_vertical"
+            android:text="@string/Section5_psp"
+            android:textColor="@color/btn_text" />
+
+        <LinearLayout
+            android:id="@+id/layout_section5_psp"
+            android:layout_width="361dp"
+            android:layout_height="363dp"
+            android:layout_gravity="center"
+            android:background="@drawable/borders_layouts"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5_psp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fnt_color"
+                android:text="@string/quinto_psp" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/psp5" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_section6_psp"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/btn_off"
+            android:drawableEnd="@drawable/down_arrow"
+            android:gravity="left|center_vertical"
+            android:text="@string/Section6_psp"
+            android:textColor="@color/btn_text" />
+
+        <LinearLayout
+            android:id="@+id/layout_section6_psp"
+            android:layout_width="361dp"
+            android:layout_height="344dp"
+            android:layout_gravity="center"
+            android:background="@drawable/borders_layouts"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6_psp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fnt_color"
+                android:text="@string/sexto_psp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/psp6" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_section7_psp"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/btn_off"
+            android:drawableEnd="@drawable/down_arrow"
+            android:gravity="left|center_vertical"
+            android:text="@string/Section7_psp"
+            android:textColor="@color/btn_text" />
+
+        <LinearLayout
+            android:id="@+id/layout_section7_psp"
+            android:layout_width="361dp"
+            android:layout_height="324dp"
+            android:layout_gravity="center"
+            android:background="@drawable/borders_layouts"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7_psp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fnt_color"
+                android:text="@string/septimo_psp" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="requierements">● Requierements</string>
+    <string name="necesitamos">•Poder cargar un backup, osea PS2 Chipeado, Swap Magic, u otro metodo de Carga. El PS2 de un amigo, vecino etc.\n
+
+•Memory Card Preferible la Original de Sony para PS2 con 2 MB libres; las de PSX no funcionan.
+        (Si puedes guarda todos tus avances de tus juegos en otra parte, por si las moscas se perdiera algún dato.
+        Además el procedimiento funciona mejor si usas una memory card limpia)\n
+
+•Pendrive USB, MP3, psp en modo usb, u otro dispositivo extraible.\n
+
+•uLaunchELF DVD \n
+
+•Un DVD en Blanco\n
+
+•Un Pack de Free Mc Boot\n
+
+•IMGBurn (opcional, puedes utilizar cualquier programa como el nero)\n\n\n</string>
+    <string name="Section1">● Section I</string>
+
+    <string name="link">Click Aquí para descargar el archivo</string>
+
+    <string name="primero">\n\n-Descomprimir el archivo .rar\n\n
+-Abrir: Pack_Juega_USB_FB_OPL_USBUT_MUR14O allí encontrarás todo lo necesario para todo el procedimiento, pero ahora busca la siguiente carpeta llamada:\n
+1) uLaunch4.12_ISO_DVD5_PSII, dentro de ella esta la imagen de DVD  con el uLaunchELF y quémala a la velocidad mínima que puedas (2x seria lo mas adecuado)
+        con IMGBurn,Alcohol 120 (Yo la grabe con Nero 10) etc. Esta versión ya contiene varias aplicaciones que te podrán ser útiles como un MP3 player,
+        HDloader, PS2 reality media player, el SMS, etc.</string>
+    <string name="Section2">● Section II</string>
+
+    <string name="segundo">Ahora ubica la otra carpeta llamada:\n
+2) Free_McBootv1.8b_y_OPL.08, que viene en el pack antes mencionado, copea todo su contenido en la raíz de tu pendrive,
+        (Memoria USB). Solo necesitas pasar la carpeta INSTALL y el archivo Free_MCBoot.elf.
+</string>
+    <string name="Section3">● Section III</string>
+
+    <string name="tercero">a)Inserta tu memory card limpia o con espacio suficiente en e ps2 en el slot 1.
+        (Al final te mencionaré una forma de respaldar la información de tu memory card en un pendrive).\n
+
+b) Inserta tu dispositivo usb con el free mcboot.\n
+
+c) Inserta el DVD con el uLaunchELF.\n
+
+d) Tendrá que salirte una especie de menú con la imagen de fondo de una pantera, con muchas aplicaciones
+        en la que seleccionarás la aplicación  (UlaunchELF) en el menú tu solo selecciona con la cruceta del
+        control: FileBrovser y presiona el botón de X , que es como un explorador de archivos.\n
+
+
+e) Una vez seleccionado y funcionando te saldrá una pantalla como ésta:</string>
+
+    <string name="f">f) Presiona X y entonces tendrás varias opciones para explorar, Se verá más o menos así:\n</string>
+    <string name="g">g) Muevete con la cruceta ò el  pad digital y selecciona la opción mass:/ con X. Ya adentro
+        del directorio (tu memoria USB) selecciona el programa que metiste.  Free_MCBoot.ELF y pulsa nuevamente X.</string>
+    <string name="h">h) En seguida te aparecerá una pantalla igual a esta:</string>
+    <string name="i">
+Elige la opción de instalación que mejor te parezca. Si eliges la versión multi podrás utilizar la memory card para
+        arrancar cualquier ps2 compatible, pero si eliges la opción normal solo podrás arrancar tu ps2 u otra ps2 con la misma región y modelo.\n
+
+También puedes elegir si quieres formatear tu memory Format MC(Cuidado con esto, ya sabes que perderás toda la información que tengas guardada o tus
+        avances  que no hayas respaldado) esto es lo más recomendable antes de instalar ya que puede que no tengas éxito en el  momento de booteo del ps2.\n
+
+i) Si el instalador no encuentra la aplicación ULE te mostrará un error y habrá que checar si el nombre de la aplicación en la carpeta install es el correcto y se debe de llamar asi:\n
+
+BOOT.ELF\n
+
+El instalador detecta las mayúsculas. Según mis nervios el nombre está correcto y no tendrás problemas. Esta es la captura de lo que te podría salir:\n</string>
+    <string name="i_2">También te preguntará en que slot quieres instalar el free mc boot si tienes dos memory card insertadas. Para nosotros será el  slot 1, (Debes esperar un rato a que el programa instale todo, recuerda que no es una PC es una simple consola, y tardara un poco).</string>
+
+    <string name="j">j) Por último nos dirá el progreso del proceso. </string>
+
+    <string name="k">k) Felicidades!!!  Al reinicio de tu ps2 tendrás un Chip Virtual con el que podrás correr aplicaciones, emuladores, reproductores de video y mp3.\n\n
+
+    Así se verá tu ps2 cuando reinicies el sistema:
+</string>
+
+</resources>

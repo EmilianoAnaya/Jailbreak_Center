@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:id="@+id/main">
+
+    <include layout="@layout/forums_template"/>
+
+    <EditText
+        android:id="@+id/txt_ForumTitle"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:background="@drawable/forum_title"
+        android:layout_marginHorizontal="20dp"
+        android:paddingHorizontal="20dp"
+        android:ems="10"
+        android:hint="@string/Forum_title"
+        android:inputType="text"
+        android:textColorHint="@color/hitns"
+        android:textColor="@color/btn_off" />
+
+    <EditText
+        android:id="@+id/txt_ForumDescription"
+        android:layout_marginHorizontal="20dp"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:background="@drawable/forum_description"
+        android:hint="@string/Forum_description"
+        android:textColorHint="@color/hitns"
+        android:textColor="@color/btn_off" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="65dp" />
+
+    <Button
+        android:id="@+id/btn_SendForum"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/btn_off"
+        android:textColor="@color/btn_text"
+        android:text="@string/Enviar" />
+
+
+</LinearLayout>

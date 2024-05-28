@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".MenuSelection"
+    android:background="@color/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="20sp"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:id="@+id/img_JC"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/des_JC"
+                    android:src="@drawable/new_logo_app" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/img_user_login"
+                    android:layout_width="65dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:background="@null"
+                    android:contentDescription="@string/des_user_login"
+                    android:onClick="irAUser_Login"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/user_login" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="@color/btn_off"
+                android:padding="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_n3ds"
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/des_n3ds"
+                    android:src="@drawable/n3ds_logo" />
+
+                <Button
+                    android:id="@+id/btn_n3ds"
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/btn_off"
+                    android:insetTop="35sp"
+                    android:insetRight="7sp"
+                    android:insetBottom="30sp"
+                    android:text="@string/btn_n3ds"
+                    android:onClick="irAUser_N3DS"
+                    android:textColor="@color/btn_text" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_ps2"
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/des_playstation2"
+                    android:src="@drawable/ps2_logo" />
+
+                <Button
+                    android:id="@+id/btn_ps2"
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/btn_off"
+                    android:insetTop="35sp"
+                    android:insetRight="7sp"
+                    android:insetBottom="30sp"
+                    android:text="@string/btn_playstation2"
+                    android:textColor="@color/btn_text" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_psp"
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/des_n64"
+                    android:src="@drawable/psp_logo" />
+
+                <Button
+                    android:id="@+id/btn_psp"
+                    android:layout_width="100sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/btn_off"
+                    android:insetTop="35sp"
+                    android:insetRight="7sp"
+                    android:insetBottom="30sp"
+                    android:text="@string/btn_psp"
+                    android:textColor="@color/btn_text" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="24dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

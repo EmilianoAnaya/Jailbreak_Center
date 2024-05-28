@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="20sp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/img_JC"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/des_JC"
+            android:src="@drawable/new_logo_app" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/img_user_login"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@null"
+            android:contentDescription="@string/des_user_login"
+            android:scaleType="fitCenter"
+            android:padding="2dp"
+            android:src="@drawable/user_login" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/logo_forum"
+        android:layout_width="155dp"
+        android:layout_height="115dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/des_n3ds" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Regresar"
+        android:textColor="@color/btn_text"
+        android:backgroundTint="@color/btn_on"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_login"
+    android:id="@+id/main"
+    android:background="@color/background">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="36dp" />
+
+      <ImageView
+          android:id="@+id/imageView"
+          android:layout_width="325dp"
+          android:layout_height="250dp"
+          android:layout_gravity="center"
+          android:contentDescription="@string/des_JC"
+          android:src="@drawable/new_logo_app" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="32dp" />
+
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="272dp"
+          android:layout_height="42dp"
+          android:layout_gravity="center"
+          android:fontFamily="sans-serif-black"
+          android:gravity="center_vertical"
+          android:text="@string/user"
+          android:textColor="@color/fnt_color" />
+
+      <EditText
+          android:id="@+id/username"
+          android:layout_width="272dp"
+          android:layout_height="48dp"
+          android:layout_gravity="center"
+          android:autofillHints="yes"
+          android:background="@drawable/edittext_round_corners"
+          android:ems="10"
+          android:inputType="text"
+          android:paddingStart="16dp"
+          android:paddingEnd="16dp"
+          android:textColor="@color/btn_text" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="26dp" />
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="272dp"
+          android:layout_height="45dp"
+          android:layout_gravity="center"
+          android:fontFamily="sans-serif-black"
+          android:gravity="center_vertical"
+          android:text="@string/pass"
+          android:textColor="@color/fnt_color" />
+
+      <EditText
+          android:id="@+id/password"
+          android:layout_width="272dp"
+          android:layout_height="48dp"
+          android:layout_gravity="center"
+          android:autofillHints="yes"
+          android:background="@drawable/edittext_round_corners"
+          android:ems="10"
+          android:inputType="textPassword"
+          android:paddingStart="16dp"
+          android:paddingEnd="16dp"
+          android:textColor="@color/btn_text" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="26dp" />
+
+      <Button
+          android:id="@+id/btn_login"
+          android:layout_width="183dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:backgroundTint="@color/btn_off"
+          android:text="@string/login"
+          android:textColor="@color/btn_text" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="16dp" />
+
+      <Button
+          android:id="@+id/btn_register"
+          android:layout_width="183dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:backgroundTint="@color/btn_off"
+          android:onClick="irASignUp"
+          android:text="@string/register"
+          android:textColor="@color/btn_text" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="18dp" />
+
+
+    </LinearLayout>
+  </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

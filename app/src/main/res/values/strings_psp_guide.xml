@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="requierements_psp">● Requierements</string>
+    <string name="necesitamos_psp">Hackear un PSP te permite acceder a una gran variedad de software personalizado.
+        A este software se le conoce como "Homebrew" e incluye desde juegos hasta programas de productividad.\n
+Los PSP hackeados también pueden ejecutar emuladores, los cuales son programas que permiten jugar juegos de otras consolas en el PSP.\n
+Los PSP hackeados pueden ejecutar imágenes de juegos de PSP sin tener que tener la copia original. Esto es legal si planeas usarlo como respaldo solamente.\n</string>
+
+    <string name="Section1_psp">● Section I</string>
+    <string name="primero_psp">Encuentra el número de modelo del PSP. El número de modelo determinará
+        el software que puedes instalar durante y después del hack. Existen dos procesos diferentes que dependen del modelo.\n
+Si tienes un PSP de modelo antiguo, debes abrir el compartimiento de la batería. A la derecha del logo de Sony, verás "PSP-XXXX".
+        Lo único que necesitas saber es si es un modelo "1XXX", "2XXX" o "3XXX".\n
+Si tienes un PSP Go, puedes encontrar el número del modelo abriendo la pantalla y buscando en la esquina superior izquierda. Debe decir "N1XXX".\n
+El modelo ideal es "2XXX" o uno más viejo. Puedes hackear el modelo "3XXX" y el PSP Go, pero existen limitaciones sobre qué puedes hacer.\n</string>
+
+    <string name="Section2_psp">● Section II</string>
+    <string name="segundo_psp">Actualiza tu PSP. Para poder hackearlo, debes asegurarte que tu PSP esté actualizado a la versión "6.60".
+        Puedes usar la función de actualización del sistema directamente en tu PSP o descargar el archivo desde el sitio web de Sony.\n
+Si descargas el archivo de actualización desde el sitio web de Sony, debes copiarlo al PSP conectándolo a tu computadora. Copia el archivo en la carpeta "PSP/GAME/UPDATE/" y ejecútalo desde el PSP.\n
+Para copiar archivos al PSP, primero necesitas ponerlo en modo USB. Una vez que lo conectes a tu computadora, desplázate hacia la derecha en el menú del PSP hasta llegar al menú de a
+        justes y después desplázate hacia abajo para seleccionar el modo USB. Ahora ya podrás acceder al PSP como un dispositivo de almacenamiento desde tu computadora.\n
+</string>
+
+    <string name="Section3_psp">● Section III</string>
+    <string name="tercero_psp">Descarga el firmware personalizado. Necesitas "PRO-C", el cual se puede encontrar en
+        varias páginas en Internet. Extrae el archivo y copia el firmware en tu PSP utilizando el modo USB, en la carpeta "PSP/GAME/".\n
+    </string>
+
+    <string name="Section4_psp">● Section IV</string>
+    <string name="cuarto_psp">Instala el archivo del firmware. Desplázate al menú "Juego". Busca el icono "PRO Update" (la actualización) y selecciónalo con el botón "X".
+        La pantalla se pondrá negra y aparecerán un par de opciones. Presiona "X" para instalar el firmware. Después de un par de minutos, aparecerá un mensaje que dice
+        "Completado". Presiona "X" de nuevo para iniciar el firmware.\n</string>
+
+    <string name="Section5_psp">● Section V</string>
+    <string name="quinto_psp">
+Flashea el IPL. Con el PSP "1XXX" y el "2XXX", debes abrir "CIPL Flasher", el cual se puede encontrar en
+        el menú "Juego". Esto cambiará el IPL (el cargador de programa inicial), el cual hará que inicie el firmware personalizado al momento de iniciar el sistema.\n</string>
+
+    <string name="Section6_psp">● Section VI</string>
+    <string name="sexto_psp">
+Ejecuta la función "Recuperación rápida". Con el "3XXX" y el PSP Go, debes ejecutar la función "Recuperación rápida" cada vez que inicies el sistema, ya que el
+        IPL no puede ser flasheado en estos sistemas. Ejecutar la función "Recuperación rápida" cargará el firmware personalizado al iniciar.\n</string>
+
+    <string name="Section7_psp">● Section VII</string>
+    <string name="septimo_psp">
+Borra los archivos a instalación. Después de flashear el IPL, tu PSP ya estará hackeado y listo para usarse. Puedes borrar los archivos "CIPL
+        Flasher" y "PRO Update". Asegúrate de dejar la función "Recuperación rápida" si tienes un "3XXX" o PSP Go.</string>
+
+
+</resources>

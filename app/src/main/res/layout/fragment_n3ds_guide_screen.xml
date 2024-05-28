@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_section0"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/btn_off"
+            android:drawableEnd="@drawable/down_arrow"
+            android:gravity="left|center_vertical"
+            android:text="@string/Get_Started"
+            android:textColor="@color/btn_text" />
+
+        <LinearLayout
+            android:id="@+id/layout_section0"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/borders_layouts"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fnt_color"
+                android:text="@string/Description_Get_Started"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_section1"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/btn_off"
+            android:drawableEnd="@drawable/down_arrow"
+            android:gravity="left|center_vertical"
+            android:text="@string/N3DS_Section2"
+            android:textColor="@color/btn_text" />
+
+        <LinearLayout
+            android:id="@+id/layout_section1"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/borders_layouts"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fnt_color"
+                android:text="@string/Description_N3DS_Section2_part1"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/mii_extdata"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Description_N3DS_Section2_part2"
+                android:textColor="@color/fnt_color" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                app:srcCompat="@drawable/mset9_root_layout" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Description_N3DS_Section2_part3"
+                android:textColor="@color/fnt_color"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="231dp"
+                app:srcCompat="@drawable/mset9_select" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Description_N3DS_Section2_part4"
+                android:textColor="@color/fnt_color"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                app:srcCompat="@drawable/mset9_setup" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Description_N3DS_Section2_part5"
+                android:textColor="@color/fnt_color"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="219dp"
+                app:srcCompat="@drawable/hover_settings" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Description_N3DS_Section2_part6"
+                android:textColor="@color/fnt_color" />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_section2"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/btn_off"
+            android:drawableEnd="@drawable/down_arrow"
+            android:gravity="left|center_vertical"
+            android:text="@string/N3DS_Section3"
+            android:textColor="@color/btn_text" />
+
+        <LinearLayout
+            android:id="@+id/layout_section2"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/borders_layouts"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fnt_color"
+                android:text="@string/Description_N3DS_Section3_part1"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="133dp"
+                app:srcCompat="@drawable/finalizing_root_layout" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                app:srcCompat="@drawable/finalizing_luma_payloads" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/fnt_color"
+                android:text="@string/Description_N3DS_Section3_part2"/>
+
+        </LinearLayout>
+
+        <include layout="@layout/video_template"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="20sp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/img_JC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/des_JC"
+                android:src="@drawable/new_logo_app" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/img_user_login"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@null"
+                android:contentDescription="@string/des_user_login"
+                android:scaleType="fitCenter"
+                android:padding="2dp"
+                android:src="@drawable/user_login" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/logo_guide"
+            android:layout_width="155dp"
+            android:layout_height="115dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/des_n3ds" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/guide_btn"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/selected_active"
+                    android:text="@string/GUIDES"
+                    android:textColor="@color/btn_text" />
+
+                <Space
+                    android:layout_width="80dp"
+                    android:layout_height="48dp" />
+
+                <Button
+                    android:id="@+id/forums_btn"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/normal"
+                    android:text="@string/FORUMS"
+                    android:textColor="@color/btn_text" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/guide_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/fnt_color" />
+
+            <TextView
+                android:id="@+id/guide_site"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/fnt_color" />
+
+        </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="31dp" />
+</LinearLayout>
